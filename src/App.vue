@@ -23,7 +23,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <ListItems :root="root_api" :items="items" v-if="items.length > 0" />
+          <ListItems :title="title" :root="root_api" :items="items" v-if="items.length" />
           <div v-else v-show="display">
             <div class="text-center">
               Không tìm thấy kết quả
